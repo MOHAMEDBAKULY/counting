@@ -12,7 +12,7 @@ function Counter() {
   const [days, setDays] = useState(1);
   const [count, setCount] = useState(0);
 
-  const date = new Date("June 01 2024");
+  const date = new Date();
   date.setDate(date.getDate() + count);
 
   return (
